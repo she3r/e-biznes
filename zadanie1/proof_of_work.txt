@@ -1,0 +1,5 @@
+Zadanie 1 zasługuje na ocenę 3.0. Dockerfile zbuduje nam obraz, który ma pythona 3.10. W ramach testu działania dołączam prosty plik main.py, który drukuje 'Hello world', wersje pythona oraz tablicę numpy. Dockerfile buduje również wirtualne środowisko pythona z zależnością numpy.
+
+Instrukcja uruchomienia:
+1. docker build -t my-python-app .
+2. docker run --rm -it my-python-app
