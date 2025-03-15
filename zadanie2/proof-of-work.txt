@@ -1,0 +1,5 @@
+Moje rozwiązanie zasługuje na 3.5. Mamy kontroler do produktów i endpointy do pobierania z listy, aktualizowania kolekcji i usuwania elementów z kolekcji. Do rozwiązania dołączam plik importowalny kolekcji endpointów do odczytania w postmanie. W tym pliku znajdują się przykłady wykorzystania endpointów
+
+Aby uruchomić aplikację, należy zainstalować najnowszą wersję sbt i jdk w wersji 21.
+W folderze głównym projektu uruchamiamy komendą: 
+`sbt run`
