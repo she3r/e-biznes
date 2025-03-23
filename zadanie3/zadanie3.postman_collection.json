@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "39df0575-248b-46fe-84f6-32ee16e481ab",
+		"name": "zadanie3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19570143"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8080/submit-message?message=Wiadomosc testowa 23 03 2025 20:06",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/submit-message?message=Wiadomosc testowa 23 03 2025 20:06",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"submit-message"
+					],
+					"query": [
+						{
+							"key": "message",
+							"value": "Wiadomosc testowa 23 03 2025 20:06"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

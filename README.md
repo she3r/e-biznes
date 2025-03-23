@@ -10,4 +10,4 @@ Zadanie 2 znajduje się w folderze zadanie2. W proof-of-work.txt znajdują się:
 - endpointy testowe dla api w postmanie
 
 # zadanie 3
-Zadanie 3 znajduje się w folderze zadanie3.
+Zadanie 3 znajduje się w folderze zadanie3. W tym katalogu znajdziemy nagranie proof-of-work.mkv oraz tekstowy opis rozwiązania w readme-zad3.txt
