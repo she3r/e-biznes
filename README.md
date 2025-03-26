@@ -2,7 +2,7 @@
 Repozytorium na zajęcia z E-Biznes
 
 # zadanie 1
-Zadanie 1 znajduje się w folderze zadanie1. W proof-of-work.txt dokładnie opisano sposób uruchomienia projektu oraz link do obrazu na dockerhub
+Zadanie 1 znajduje się w folderze zadanie1. W proof-of-work.txt dokładnie opisano sposób uruchomienia projektu oraz link do obrazu na dockerhub. W folderze zadanie1 znajdziemy też nagrania odpowiednio z budowania obrazu z Dockerfile oraz uruchomienia kontenera na jego podstawie/ pullowanie obrazu na dockerhubie + uruchomienie go na kontenerze
 
 [COMMIT] Wymaganie na 3.0: https://github.com/she3r/e-biznes/commit/81b1e577d6069dcc586bd0299efb622041320e02
 # zadanie 2
