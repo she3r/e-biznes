@@ -21,4 +21,4 @@ Zadanie 3 znajduje się w folderze zadanie3. W tym katalogu znajdziemy nagranie 
 
 # zadanie 4
 Zadanie 4 znajduje się w folderze zadanie4. W tym katalogu znajdziemy nagranie proof-of-work.mkv (+ dodatkowy opis do niego proof-of-work.txt), endpointy testowe dla api w postmanie oraz tekstowy opis rozwiązania w readme-zad4.txt
-[COMMIT] Wymaganie na 3.0 i 3.5 
+[COMMIT] Wymaganie na 3.0, 3.5, 4.0, 4.5 https://github.com/she3r/e-biznes/commit/6ff98b8e1221da39f6d58aef798b4af73e2e14fe
