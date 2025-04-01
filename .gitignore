@@ -1,0 +1,10 @@
+zadanie4/zadanie4.db
+
+# Default ignored files
+zadanie4/shelf/
+zadanie4/workspace.xml
+# Editor-based HTTP Client requests
+zadanie4/httpRequests/
+# Datasource local storage ignored files
+zadanie4/dataSources/
+zadanie4/dataSources.local.xml

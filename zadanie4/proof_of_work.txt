@@ -1,0 +1,3 @@
+Zadanie zasługuje na 4.5. Aplikacja ma 5 modeli (klient, pracownik, kategoria produktu, produkt, koszyk na produkty) z wymaganymi endpointami CRUD. Co więcej, między modelami kategoria produktu i produkt istnieje relacja bazodanowa one category to many products. Klient i pracownik mają tylko proste endpointy do listowania i dodawania.
+Mamy też koszyk z relacją do produktów many to many. Do modelu koszyka mamy endpointy z dodawaniem i uswaniem produktów z koszyka
+Aplikacja jest echo w Go i wykorzystuje gorm i sqlite.
