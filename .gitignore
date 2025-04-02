@@ -8,3 +8,4 @@ zadanie4/httpRequests/
 # Datasource local storage ignored files
 zadanie4/dataSources/
 zadanie4/dataSources.local.xml
+/zadanie5/.idea

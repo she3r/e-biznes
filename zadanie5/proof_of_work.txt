@@ -1,0 +1,3 @@
+Rozwiązanie zasługuje na 3.0. Istnieją dwa komponenty: produkty oraz płatności. Na stronie głównej można zaznaczać produkty pobrane z endpointa backendowego w komponencie produktów. Wartość zaznaczonych sumuje się i można wysłać za pomocą przycisku `Zapłać` request do serwisu backendowego, który zawiera informację z sumą wartości zaznaczonych produktów. Proof of work z wyżej wymienionymi funkcjonalnościami znajduje się w pliku proof_of_work.mkv. 
+
+Serwis backendowy na localhoscie na porcie 8080 oparłem na rozwiązaniu z zadania 4. Dodałem niezbędny endpoint do płatności. Nie ma tam żadnej szczególnej logiki, po prostu przyjmujemy prosty request i zapisujemy na bazę sqlite. Dodatkowo, skonfigurowałem CORS https://echo.labstack.com/docs/middleware/cors

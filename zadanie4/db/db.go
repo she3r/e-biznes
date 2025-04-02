@@ -15,5 +15,5 @@ func Init() {
 		panic("Nie udało się połączyć z bazą danych")
 	}
 
-	DB.AutoMigrate(&models.Product{}, &models.Category{}, &models.Basket{}, &models.Employee{}, &models.Client{})
+	DB.AutoMigrate(&models.Product{}, &models.Category{}, &models.Basket{}, &models.Employee{}, &models.Client{}, &models.Payment{})
 }

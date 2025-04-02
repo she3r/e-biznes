@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/labstack/echo/v4"
+	"github.com/labstack/echo/v4/middleware"
 	"zadanie4_project/controllers"
 	"zadanie4_project/db"
 )
@@ -33,6 +34,15 @@ func main() {
 
 	e.POST("/clients", controllers.CreateClient)
 	e.GET("/clients", controllers.GetClients)
+
+	e.POST("/payments", controllers.CreatePayment)
+
+	// CORS middleware
+	e.Use(middleware.CORSWithConfig(middleware.CORSConfig{
+		AllowOrigins: []string{"*"},
+		AllowHeaders: []string{echo.HeaderOrigin, echo.HeaderContentType, echo.HeaderAccept},
+		AllowMethods: []string{echo.GET, echo.PUT, echo.POST, echo.DELETE},
+	}))
 
 	e.Logger.Fatal(e.Start(":8080"))
 }
