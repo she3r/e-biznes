@@ -28,3 +28,7 @@ Zadanie 4 znajduje się w folderze zadanie4. W tym katalogu znajdziemy nagranie 
 Zadanie 5 znajduje się w folderze zadanie5. W tym katalogu znajdziemy nagranie proof-of-work.mkv (+ dodatkowy opis do niego proof-of-work.txt)
 
 [COMMIT] Wymaganie na 3.0 https://github.com/she3r/e-biznes/commit/11a1805b677a758fe43bc2ae49fc205b99d28232
+
+# zadanie 6
+Zadanie 6 znajduje się w folderze zadanie6. W tym katalogu znajdziemy nagranie proof-of-work.mkv (+ dodatkowy opis do niego proof-of-work.txt)
+[COMMIT] Wymaganie na 3.0 i 3.5 https://github.com/she3r/e-biznes/commit/10caaaaa35c76f4e29f6115c27a878211485999b
