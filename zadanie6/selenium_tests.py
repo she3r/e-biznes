@@ -73,7 +73,6 @@ def test_selenium(case_num, case):
     expected_sum = expected_values[case_num]
     assert all_checked_sum == expected_sum, 'test error. Test case is invalid. all_checked_sum != expected_sum'
 
-    # Find the h2 element by its text
     h2_element = driver.find_element(By.TAG_NAME, 'h2')
     h2_price_match = extract_price(h2_element.text)
 
