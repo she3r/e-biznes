@@ -1,0 +1,9 @@
+Rozwiązanie zasługuje na 3.5. Wykorzystałem selenium w pythonie oraz aplikację rest api w go z zadania 4. 
+Jest 63 przypadki testowe wykorzystujące selenium.
+Setup: za pomocą odpowiednich endpointów wstawiamy 6 produktów o cenie 2^i
+Aplikacja webowa listuje na front-endzie listę wstawionych produktów.
+Na 2^6 - 1 (wszystkie sposoby zaklikania checkboxów bez 000000) sposobów testujemy, czy funkcjonalność sumowania wybranych produktów działa poprawnie.
+Testy uruchamiają rest-api, w konwekwencji stawiają plikową bazę testową sqlite na setup i usuwają ją na teardown
+
+Nagranie z pracy testów + selenium można zobaczyć w proof_of_work.mkv.
+Uwaga. Przed rozpoczęciem pracy testu należy zbudować rozwiązanie z zadania 4. Należy użyć `go build main.go`
