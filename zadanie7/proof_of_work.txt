@@ -1,0 +1,30 @@
+Dla rozwiązania zadania 7 wykorzystałem aplikację kliencką (react.js) z zadania 5 i aplikację serwerową z zadania 4 (w GO). 
+Do tych komponentów, względem ich oryginałów, zostały dopisane testy, aby zaspokoić potrzeby pokrycia kodu w sonarze.
+Moje rozwiązanie zasługuje na 5.0 
+1. Oba repozytoria zawierają litera, który dokleja nazwę brancha do commitów w nawiasach kwadratowych.
+Aby to osiągnąć, do hooków gita dokleiłem skrypt:
+
+`
+#!/bin/sh
+
+LITER=$(git rev-parse --abbrev-ref HEAD)
+
+if [ -n "$LITER" ]; then
+  sed -i.bak -e "1s/^/[$LITER] /" "$1"
+fi
+`
+
+Taki skrypt jest obecny w lokalnych repozytoriach zarówno dla aplikacji klienckiej, jak i serwerowej.
+
+2. Zarówno w aplikacji klienckiej jak i serwerowej, wyeliminowano bugi, zapaszki, wszelkie podatności i błędy bezpieczeństwa
+
+3. Repozytoria wykorzystywane w SonarQubeCloud można zobaczyć tu:
+- aplikacja serwerowa: https://github.com/she3r/e-biznes-aplikacja-serwerowa
+- aplikacja kliencka: https://github.com/she3r/e-biznes-aplikacja-kliencka
+
+4. Za pomocą github actions skonfigurowałem pipeline, w którym projekty są odpowiednio budowane, testowane i analizowane przez klienta sonarqube, 
+wyniki są następnie przesyłane do chmury (patrz dowolne commity)
+
+5. Widgety potwierdzające zaliczenie pozytywnie analizy sonarowej można zobaczyć w screenach
+- aplikacja_serwerowa_summary_sonar.jpg dla aplikacji serwerowej
+- aplikacja_kliencka_summary_sonar.jpg dla aplikacji klienckiej
