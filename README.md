@@ -33,3 +33,8 @@ Zadanie 5 znajduje się w folderze zadanie5. W tym katalogu znajdziemy nagranie 
 Zadanie 6 znajduje się w folderze zadanie6. W tym katalogu znajdziemy nagranie proof-of-work.mkv (+ dodatkowy opis do niego proof-of-work.txt)
 
 [COMMIT] Wymaganie na 3.0 i 3.5 https://github.com/she3r/e-biznes/commit/10caaaaa35c76f4e29f6115c27a878211485999b
+
+# zadanie 7
+Zadanie 7 znajduje się w folderze zadanie7. W tym katalogu znajdziemy opis rozwiązania proof-of-work.txt. 
+
+[COMMIT] Wymaganie na 3.0,3.5,4.0,4.5,5.0 - opis rozwiązania w formie tekstowej, referujący do repozytoriów podpiętych pod sonar + widgety sonarowe z wynikami analizy https://github.com/she3r/e-biznes/commit/71e06eb46852514ce08d5b9f29587d1c63bb6f05
